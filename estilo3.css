@@ -1,0 +1,118 @@
+
+/*LIMPANDO PADRÕES* (quando não faço uso do normalize)
+
+*{
+	margin: 0;
+	padding: 0;
+	}*/
+
+
+
+
+
+  .site{
+
+  	width: 650px;
+  	height:600px;
+  	margin: 20px;
+  }
+
+
+  .conteudo{
+
+	/*background: rgb(61, 157, 179)*/;  
+  	font-family: Montserrat;
+	width: 600px;
+	height: 400px;
+	/*margin-bottom :25px; */
+
+	
+	/*position: relative;*/
+
+
+}
+
+
+
+   h1{
+   	/*border: 1px solid #066a75;*/
+	font-size: 40px;
+	color: #066a75;
+	padding: 2px 0 10px 0;
+	font-family: Montserrat;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+input{
+	
+	cursor: pointer;
+	text-shadow: 0 1px 1px #333;
+	border-radius: 5px;
+	/*transition: all 0.2s linear;*/
+	/*background: rgb(61, 157, 179);*/
+
+
+
+}
+ ::-webkit-input-placeholder  {
+  color: #bebcbc; 
+  font-style: italic;
+}
+	
+	
+/*input[type="submit"]:hover{
+  background: #4ab3c6;*/
+}
+
+
+tr:hover {
+  background-color:#3d80df;
+  color: #fff;
+}
+thead {
+  background: #ccc;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+/*
+
+ /* linhas pares (even) 
+.tabela tbody tr:nth-child(even) {
+    background-color: #CCC;
+}
+/* linhas ímpares (odd) 
+.tabela tbody tr:nth-child(odd) {
+    background-color: #FFF;
+}*/
+ 
+table {
+
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 650px;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+  
+
+
+button {
+    display:block;
+  
+   /* font-weight:bold;*/
+    border-color: #d6d6d6;
+    border-radius: 5px;
+    
+    
+}
